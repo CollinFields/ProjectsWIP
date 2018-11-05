@@ -2,6 +2,8 @@
 #Date: 11/05/2018
 #Purpose: check if a string is a palindrome, will be stripping the spaces from the string in case of a multiword palindrome.
 
+import math
+
 #Recursive palindrome check.
 def recursivePalindromeChecker(stringToBeChecked):
 	#Exit condition for recursion loop.
@@ -23,7 +25,7 @@ def iterativePalindromeChecker(stringToBeVerified):
 	stringToBeVerified = stringToBeVerified.lower()
 	stringToBeVerified = stringToBeVerified.strip()
 	#Traverses half of the string.
-	for i in range(len(stringToBeVerified)//2):
+	for i in range(math.ceil(len(stringToBeVerified)//2)):
 		if(stringToBeVerified[i] == stringToBeVerified[-(i + 1)]):
 			continue
 		else:
