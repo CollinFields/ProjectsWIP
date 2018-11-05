@@ -23,7 +23,7 @@ def iterativePalindromeChecker(stringToBeVerified):
 	stringToBeVerified = stringToBeVerified.lower()
 	stringToBeVerified = stringToBeVerified.strip()
 	#Traverses half of the string.
-	for i in range(len(stringToBeVerified)):
+	for i in range(len(stringToBeVerified)//2):
 		if(stringToBeVerified[i] == stringToBeVerified[-(i + 1)]):
 			continue
 		else:
