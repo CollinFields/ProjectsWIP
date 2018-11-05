@@ -1,5 +1,5 @@
 
-#Programmer: Collin Michael Fields
+#Programmer: Collin M. Fields
 #Date: 11/1/2018
 #Purpose: Calculate the value of Pi out to a certain decimal place. (Currently only works to the 48th decimal place.
 
