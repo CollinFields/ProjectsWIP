@@ -1,8 +1,8 @@
-"""
-	Programmer: Collin Michael Fields
-	Date: 11/1/2018
-	Purpose: Calculate the value of Pi out to a certain decimal place. (Currently only works to the 48th decimal place.
-"""
+
+#Programmer: Collin Michael Fields
+#Date: 11/1/2018
+#Purpose: Calculate the value of Pi out to a certain decimal place. (Currently only works to the 48th decimal place.
+
 import math
 from decimal import *
 
