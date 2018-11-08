@@ -2,8 +2,6 @@
 #Date: 11/08/2018
 #Purpose: Create the Sieve of Eratosthenes
 
-import math
-
 def sieveOfEratosthenes(n):
 	listOfNotPrimes = []
 	listOfPrimes = []
