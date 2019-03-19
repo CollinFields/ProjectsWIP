@@ -5,13 +5,16 @@
 #Shows only the value at that point in the fibonacci sequence.
 def fibonacciSequence(n):
 	if(n == 1):
+		print(1, end = " ")
 		return 1
 	elif(n == 0):
+		print(0, end = " ")
 		return 0
 	else:
+		print(fibonacciSequence(n-2) + fibonacciSequence(n-1), end = " ")
 		return fibonacciSequence(n-2) + fibonacciSequence(n-1)
 
-#Shows entire Fibonacci Sequence up and including the value at n.
+#Shows entire Fibonacci Sequence up and including the value at n.	
 def iterativeFibonacciShowing(n):
 	fibList = [ 0, 1, 1 ]
 	if(n == 0):
